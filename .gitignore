@@ -1,0 +1,20 @@
+﻿# Carpetas locales y plugins pesados de Terraform
+**/.terraform/*
+
+# Archivos de estado (contienen información sensible e IDs internos)
+*.tfstate
+*.tfstate.*
+
+# Archivos de variables con contraseñas o credenciales
+*.tfvars
+*.tfvars.json
+
+# Archivos de respaldo y logs
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
